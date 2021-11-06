@@ -1,0 +1,24 @@
+.logos {
+  width: 100%;
+  margin-top: 50px;
+}
+.logosParent {
+  width: 75%;
+}
+.logosLine {
+  width: 100%;
+  height: 1px;
+  background: #e1e4eb;
+  margin-bottom: 25px;
+}
+.logosBlock {
+  justify-content: space-between;
+}
+.logosBlock img {
+  cursor: pointer;
+}
+@media (max-width: 920px) {
+  .logos {
+    display: none;
+  }
+}

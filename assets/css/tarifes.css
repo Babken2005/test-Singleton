@@ -1,0 +1,129 @@
+.tarifes {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.tarifesParent {
+  width: 75%;
+}
+.buildTxt {
+  max-width: 75%;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: -3px;
+  color: #111111;
+  margin-bottom: 50px;
+}
+.tarifesBlock {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+.tarifesCard {
+  transition: 0.2s linear;
+  border: 1px solid #e1e4eb;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #111111;
+}
+.tarifesCard:hover {
+  background: #111111;
+  color: white;
+}
+.tarifesCard:hover .planBtn {
+  background: #783bff;
+  color: white;
+  border: 1px solid #783bff;
+}
+.tarifesCard span {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  opacity: 0.4;
+}
+.cardPlan {
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 30px;
+  letter-spacing: -0.4px;
+  opacity: 0.4;
+}
+.priceBlock,
+.free {
+  margin-bottom: 25px;
+}
+.cardPrice {
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+}
+.cardContent {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  margin-bottom: 15px;
+}
+.planBtn {
+  cursor: pointer;
+  width: 75%;
+  border: 1px solid #e1e4eb;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #783bff;
+}
+.planBtnP {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tarifesBottom {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #111111;
+  opacity: 0.4;
+  margin-top: 50px;
+  max-width: 75%;
+}
+.contact {
+  width: 100%;
+}
+.contact p {
+  font-size: 0.813rem;
+  color: #111111;
+  opacity: 0.4;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@media (max-width:920px) {
+  .tarifes {
+    margin-bottom: 15px;
+  }
+  .tarifesParent {
+    width: 90%;
+  }
+  .tarifesBlock {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .buildTxt {
+    max-width: unset;
+    line-height: 55px;
+    font-size: 2.5em;
+    margin-bottom: 25px;
+  }
+  .tarifesBottom {
+    max-width: unset;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 25px;
+  }
+}
