@@ -1,0 +1,81 @@
+.media {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.mediaParent {
+  width: 75%;
+}
+.socialMediaBlock {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.mediaParentTitle {
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: -3px;
+  color: #111111;
+}
+.mediaCard {
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+.mediaCard h1 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: -1.6px;
+  color: #111111;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  width: min-content;
+}
+.mediaCard p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #111111;
+  opacity: 0.5;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+.mediaButton {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  background: #ffffff;
+  margin-left: 25px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.mediaCardLogo {
+  margin: 25px;
+}
+.mediaButton:hover .arrowRight {
+  transform: translateX(5px);
+}
+.arrowRight {
+  transition: 0.2s linear;
+}
+.media h2 {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #111111;
+  opacity: 0.4;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+@media (max-width:920px) {
+  .media {
+    display: none;
+  }
+}

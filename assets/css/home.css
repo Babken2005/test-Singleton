@@ -1,0 +1,182 @@
+.home {
+  position: relative;
+  width: 100%;
+}
+.homeParent {
+  width: 75%;
+}
+.homeHeader {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  top: 25px;
+}
+.link {
+  transition: color 0.2s linear;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  color: #111111;
+  margin: 25px;
+}
+.choosedLink {
+  opacity: 0.5;
+}
+.link:hover {
+  color: #783bff;
+}
+.headerRight p {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.36px;
+  color: #783bff;
+}
+.signUpBtn {
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px solid #e1e4eb;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.homeContent {
+  margin-top: 100px;
+  width: 100%;
+  justify-content: center;
+}
+.homeLeft h1 {
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 78px;
+  letter-spacing: -3.6px;
+  color: #111111;
+}
+.homeLeftP {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  color: #111111;
+  opacity: 0.4;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.homeRight {
+  margin-left: 75px;
+}
+.emailBtn {
+  width: 255px;
+  height: 50px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+.emailBtn img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.emailBtn input {
+  border: none;
+  background: none;
+  outline: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  color: #a9abbd;
+}
+.startBtn {
+  width: 175px;
+  height: 50px;
+  background: #6ac75a;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.startBtn p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+  opacity: 1;
+}
+.mobileGirl {
+  display: none;
+}
+.ri-menu-3-line, .ri-moon-line {
+  display: none;
+}
+@media (max-width: 920px) {
+  .homeContent {
+    display: block;
+    margin-top: 70px;
+  }
+  .homeParent {
+    width: 90%;
+  }
+  .homeHeader {
+    transition: 0.2s linear;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 56px;
+    background-color: white;
+  }
+  .headerScrolled {
+    box-shadow: 0 0.5px 6px rgb(0 11 16 / 10%);
+  }
+  .homeHeader img {
+    width: 75px;
+    margin-left: 19px;
+  }
+  .homeRight {
+    display: none;
+  }
+  .signUpBtn {
+    display: none;
+  }
+  .homeLeft h1 {
+    line-height: 55px;
+    font-size: 2.5em;
+  }
+  .homeLeftP {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .homeLeftBottom {
+    display: block;
+  }
+  .startBtn {
+    margin-left: unset;
+    margin-top: 15px;
+  }
+  .mobileGirl {
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .startBtn p {
+    font-size: 0.95em;
+  }
+  .headerRight p {
+    display: none;
+  }
+  .headerCenter {
+    display: none;
+  }
+  .headerRight {
+    margin-right: 16px;
+  }
+  .ri-menu-3-line, .ri-moon-line {
+    display: block;
+    font-size: 1.25rem;
+  }
+  .ri-moon-line {
+    margin-right: 10px;
+  }
+}

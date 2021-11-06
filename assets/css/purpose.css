@@ -1,0 +1,52 @@
+.purpose {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.purposeParent {
+  width: 75%;
+  justify-content: space-between;
+}
+.purposeRight {
+  margin-left: 100px;
+}
+.referenceLeft {
+  width: 65px;
+  height: 65px;
+  background: #ffe6df;
+  border-radius: 22px;
+}
+.reference p {
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: -0.8px;
+  color: #111111;
+  margin-left: 15px;
+}
+.purposeRight h1 {
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -3px;
+  color: #111111;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.exploreBtn {
+  cursor: pointer;
+  width: 225px;
+  height: 50px;
+  background: #6ac75a;
+  border-radius: 5px;
+}
+.exploreBtn p {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+@media (max-width:920px) {
+  .purpose {
+    display: none;
+  }
+}

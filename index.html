@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />  
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Singleton | Adaptive Landing Page</title>
+</head>
+<body>
+  <div class="home j-c">
+    <div class="homeParent">
+      <header class="homeHeader a-c">
+        <img src="./assets/images/Logo.svg" alt="logo">
+      <div class="headerCenter">
+        <a href="#" class="link choosedLink">About</a>
+        <a href="#" class="link">Services</a>
+        <a href="#" class="link">Projects</a>
+        <a href="#" class="link">Contacts</a>
+      </div>
+      <div class="headerRight a-c">
+        <i class="ri-moon-line"></i>
+        <i class="ri-menu-3-line"></i>
+        <p>Log in</p> 
+        <div class="signUpBtn a-c j-c c-p">
+          <p>Sign up</p>
+        </div>
+      </div>
+    </header>
+    <div class="homeContent a-c">
+      <center><img data-aos="fade-up" data-aos-duration="1800" class="mobileGirl" src="./assets/images/girl.svg" alt="girl"></center>
+      <div data-aos="fade-up" data-aos-duration="2100" class="homeLeft">
+        <h1>Make more time for the work that matters most</h1>
+        <p class="homeLeftP">Create screens directly in Singleton or add your images from Sketch or Figma.
+        You can even sync designs from your cloud storage!</p>
+        <div class="homeLeftBottom a-c">
+          <div class="emailBtn c-p a-c">
+            <img src="./assets/images/mail.svg" alt="mail">
+            <input placeholder="Type your e-mail" type="email">
+          </div>
+          <div class="startBtn c-p a-c j-c">
+            <p>Get Started</p>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1500" class="homeRight">
+        <img src="./assets/images/girl.svg" alt="girl">
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="logos j-c">
+    <div class="logosParent">
+      <div data-aos="fade-up" data-aos-duration="1500" class="logosLine"></div>
+      <div class="logosBlock a-c">
+        <img data-aos="fade-up" data-aos-duration="1300" src="./assets/images/google.svg" alt="google">
+        <img data-aos="fade-up" data-aos-duration="1500" src="./assets/images/list.svg" alt="list">
+        <img data-aos="fade-up" data-aos-duration="1600" src="./assets/images/uber.svg" alt="uber">
+        <img data-aos="fade-up" data-aos-duration="1700" src="./assets/images/stripe.svg" alt="stripe">
+        <img data-aos="fade-up" data-aos-duration="1800" src="./assets/images/nike.svg" alt="nike">
+        <img data-aos="fade-up" data-aos-duration="1900" src="./assets/images/airbnb.svg" alt="airbnb">
+        <img data-aos="fade-up" data-aos-duration="2000" src="./assets/images/mastercard.svg" alt="mastercard">
+      </div>
+    </div>
+  </div>  
+  <div class="media j-c">
+    <div class="mediaParent">
+      <h1 data-aos="fade-up" data-aos-duration="1300" class="mediaParentTitle">
+        Save time managin social media for your business</h1>
+      <div class="socialMediaBlock">
+        <div data-aos="fade-up" data-aos-duration="1000" class="mediaCard">
+          <img class="mediaCardLogo" src="./assets/images/padlock.svg" alt="padlock">
+          <h1>Security Management</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="mediaButton a-c j-c">
+            <img class="arrowRight" src="./assets/images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1300" class="mediaCard">
+          <img class="mediaCardLogo" src="./assets/images/fire.svg" alt="padlock">
+          <h1>Diigital Agency</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="mediaButton a-c j-c">
+            <img class="arrowRight" src="./assets/images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1800" class="mediaCard">
+          <img class="mediaCardLogo" src="./assets/images/api.svg" alt="api">
+          <h1>API Reference</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="mediaButton a-c j-c">
+            <img class="arrowRight" src="./assets/images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="mediaCard"> 
+          <img class="mediaCardLogo" src="./assets/images/team.svg" alt="team">
+          <h1>Team Accounts</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="mediaButton a-c j-c">
+            <img class="arrowRight" src="./assets/images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1300" class="mediaCard">
+          <img class="mediaCardLogo" src="./assets/images/user.svg" alt="user">
+          <h1>User Administration</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="mediaButton a-c j-c">
+            <img class="arrowRight" src="./assets/images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1800" class="mediaCard">
+          <img class="mediaCardLogo" src="./assets/images/email-o.svg" alt="e-mail">
+          <h1>Email Marketing</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="mediaButton a-c j-c">
+            <img class="arrowRight" src="./assets/images/arrow-right.svg" alt="arrow-right">
+          </div>
+        </div>
+      </div>
+      <h2>Create screens directly in Singleton or add your images from Sketch or Figma.
+      You can even sync designs
+      from your cloud storage!</h2>
+      <div class="startBtnBlock j-c">
+        <div class="startBtn a-c j-c c-p ">
+          <p>Explore All Features</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="purpose j-c">
+    <div class="purposeParent a-c">
+      <div data-aos="fade-right" data-aos-duration="1500" class="purposeLeft">
+        <img src="./assets/images/tennisplayer.png" alt="tennisPlayer">
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1500" class="purposeRight">
+        <div class="reference a-c">
+          <div class="referenceLeft a-c j-c">
+            <img src="./assets/images/api-orange.svg" alt="api">
+          </div>
+          <p>API Reference</p>
+        </div>
+        <h1>We believe in helping people pay attention to what matters</h1>
+        <div class="exploreBtn a-c j-c">
+          <p>Explore All Features</p>
+          <img src="./assets/images/w-arrow-r.svg" alt="arrow">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rewards j-c">
+    <div class="rewardsParent">
+      <h1 data-aos="fade-up" data-aos-duration="1800">Invite friends & earn rewards</h1>
+      <div data-aos="fade-up" data-aos-duration="1800" class="rewardsContent a-c j-c">
+        <img class="c-p" src="./assets/images/play.svg" alt="play">
+        <p>Play Introduction Video</p>
+      </div>
+      <div class="rewardsBlock a-c">
+      <div data-aos="fade-right" data-aos-duration="1800" class="rewardsLeft j-c">
+        <img src="./assets/images/rewardPhone.png" alt="phone">
+      </div>
+      <div data-aos="fade-left" data-aos-duration="1800" class="rewardsRight j-c">
+        <img src="./assets/images/keyfolder.png" alt="keyfolder">
+      </div>
+    </div>
+    <div class="rewardsBottom a-c j-c">
+      <h3>Create screens directly in Singleton or add your images from Sketch
+        or Figma. You can even sync designs from your cloud storage!</h3>
+    </div>
+    </div>
+  </div>
+  <div class="tarifes j-c">
+    <div class="tarifesParent">
+      <h1 data-aos="fade-up" data-aos-duration="1500" class="buildTxt">Build the right plan for your team</h1>
+      <div class="tarifesBlock">
+        <div class="tarifesCard c-p">
+          <center>
+            <p class="cardPlan">Starter</p>
+            <h1 class="cardPrice free">Free</h1>
+            <p class="cardContent">1 Non-Commercial Site</p>
+            <p class="cardContent">100 GB System Storage</p>
+            <p class="cardContent">Singleton Branding</p>
+            <div class="planBtn a-c j-c">
+              <p class="planBtnP">Select Plan</p>
+            </div>
+          </center>
+        </div>
+        <div class="tarifesCard c-p">
+          <center>
+            <p class="cardPlan">Singleton Plus</p>
+            <div class="priceBlock j-c a-c"><h1 class="cardPrice a-c">$39</h1><span>/month</span></div>
+            <p class="cardContent">10 Non-Commercial Site</p>
+            <p class="cardContent">500 GB System Storage</p>
+            <p class="cardContent">Custom Branding</p>
+            <div class="planBtn a-c j-c">
+              <p class="planBtnP">Select Plan</p>
+            </div>
+          </center>
+        </div>
+        <div class="tarifesCard c-p">
+          <center>
+            <p class="cardPlan">Singleton Plus</p>
+            <div class="priceBlock j-c a-c"><h1 class="cardPrice a-c">$99</h1><span>/month</span></div>
+            <p class="cardContent">30 Non-Commercial Site</p>
+            <p class="cardContent">1TB System Storage</p>
+            <p class="cardContent">Singleton Branding</p>
+            <div class="planBtn a-c j-c">
+              <p class="planBtnP">Select Plan</p>
+            </div>
+          </center>
+        </div>
+      </div>
+      <p class="tarifesBottom">Create screens directly in Singleton or add your images from Sketch or Figma. 
+      You can even sync designs from your cloud storage!</p>
+    </div>
+  </div>
+  <div class="contact a-c j-c">
+    <p>© Babken. All rigths reserved</p>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/headerScrollPos.js"></script>
+</body>
+</html>
