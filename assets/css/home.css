@@ -10,7 +10,7 @@
 }
 .menuTop {
   height: 56px;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .menuCenter {
   display: grid;
