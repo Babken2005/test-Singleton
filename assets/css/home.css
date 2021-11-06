@@ -1,6 +1,29 @@
+.mobileMenu {
+  transition: 0.5s all ease;
+  display: none;
+  position: fixed;
+  z-index: 20000;
+  width: 80%;
+  height: 100vh;
+  background-color: white;
+  right: 0;
+}
+.menuTop {
+  height: 56px;
+  justify-content: end;
+}
+.menuCenter {
+  display: grid;
+  margin-left: 45px;
+}
+.ri-close-fill {
+  font-size: 1.5rem;
+  margin-right: 16px;
+}
 .home {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 .homeParent {
   width: 75%;
@@ -20,6 +43,15 @@
   letter-spacing: -0.36px;
   color: #111111;
   margin: 25px;
+}
+.links {
+  transition: color 0.2s linear;
+  font-weight: normal;
+  font-size: 0.95em;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  color: #111111;
+  margin: 15px 0;
 }
 .choosedLink {
   opacity: 0.5;
@@ -181,5 +213,9 @@
   .ri-moon-line {
     margin-right: 10px;
     cursor: pointer;
+  }
+  .mobileMenu {
+    transform: translateX(100%);
+    display: unset;
   }
 }
